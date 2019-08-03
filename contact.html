@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,  shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!---New scripts-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <body>
+    <header id="header col-sm-1">
+    <nav class="navbar navbar-expand-md navbar-light ">
+            
+    
+        <a class="navbar-brand" href="index.html"><img src="SnS.png" alt="logo" class="logo" style="padding:3px; width:140px; height: 50px;float: left;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"  ></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="float: right;">
+          <div class="navbar-nav ml-auto"  style="padding: 10px;">
+            <a class="nav-item nav-link active" href="index.html"style="padding-right: 15px; color:#F2E4B1">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="about.html" aria-disabled="true" style="padding-right: 15px; color:#F2E4B1">About</a>
+            <div class="dropdown">
+                    <button class="btn btn-primary-outline dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#F2E4B1">
+                      Products
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <button class="dropdown-item" type="button">Abbott Products</button>
+                      <button class="dropdown-item" type="button">Luicentis Products</button>
+                      <button class="dropdown-item" type="button">Vision Care Products</button>
+                      <button class="dropdown-item" type="button">Bausch & Lomb Products</button>
+                    </div>
+                  </div>
+                 
+                  <div class="dropdown">
+                        <button class="btn btn-primary-outline dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#F2E4B1">
+                          Companies
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item" type="button" ><a href="http://www.abbott.co.in/">ABBOTT</a></button>
+                          <button class="dropdown-item" type="button"> <a href="https://www.lucentis.com/">LUCENTIS</a></button>
+                          <button class="dropdown-item" type="button"> <a href="https://www.visioncareinc.net/">Vision Care</a></button>
+                          <button class="dropdown-item" type="button"><a href="https://www.jnj.com/">Johnson & Johnson</a></button>
+                        </div>
+                      </div>
+                      
+                  <a class="nav-item nav-link active" href="contact.html" aria-disabled="true" style="padding-right: 15px;color:#F2E4B1">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+        <div class="contain">
+                <center>
+                <div class="wrap">
+                    <form class="contact-forms validate-form" action="connect.php" method="post" >
+                        <span class="form-title">
+                            
+                            <p class="form-head" style="color: #F2E4B1;">Send Us A Message </p>
+                        
+                        </span>
+                        <div class="wrap-input validate-input" data-validate="Please enter your name">
+                             <br>  
+                            <input class="input100" type="text" name="name" placeholder="Full Name">
+                            <span class="focus-input"></span>
+                        </div>
+                        <div class="wrap-input validate-input" data-validate="Please enter your email: e@a.x">
+                            <br>
+                            <input class="input100" type="text" name="email" placeholder="E-mail" >
+                            <span class="focus-input"></span>
+                        </div>
+        
+                        <div class="wrap-input validate-input" data-validate="Please enter your phone">
+                            <br>
+                            <input class="input100" type="text" name="phone" placeholder="Phone" >
+                            <span class="focus-input"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+                            
+                            <br>
+                            <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                            <span class="focus-input100"></span>
+                        </div>
+                        <br>
+                            <div class="container-form-btn">
+                            <button class="form-btn">
+                                <span><i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                                    Send</span>
+                            </button>
+                        </div>
+                    </form>
+                    
+                </div>
+                </center>
+            </div>
+            <script src="jquery/jquery-3.2.1.min.js"></script>
+            <script src="validation.js"></script>
+       
+            <footer class="page-footer font-small" style="background-color: #f44336;">
+
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3" style="color:#F2E4B1;">© 2018 Copyright:
+                      <a href="index.html" style="color:#F2E4B1;"> SunNShade</a>
+                    </div>
+                    <!-- Copyright -->
+                  
+                  </footer>
+                  <!-- Footer -->
+</body>
